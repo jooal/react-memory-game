@@ -1,0 +1,31 @@
+.header {
+  background-color: #e5c64d;
+    /* margin: 0 auto; */
+    height: 200px;
+    font-family: 'Luckiest Guy', cursive;
+    }
+  
+  .header h1 {
+    margin: 0 auto;
+    padding-top: 50px;
+    /* padding-bottom:10px; */
+    text-align: center;
+    color: red;
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+    font-size: 3rem;
+    font-size: 70px;
+  }
+
+.directions {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding-bottom: 20px; */
+}
+
+/* .your-score  {
+  font-size: 30px;
+  text-align: center;
+  /* display: flex; */
+  /* } */

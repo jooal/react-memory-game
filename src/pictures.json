@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1, 
+        "image": "./images/burger.jpg", 
+        "clicked": false
+    }, 
+    {
+        "id": 2, 
+        "image": "./images/fist.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3, 
+        "image": "./images/floor.png",
+        "clicked": false
+    }, 
+    {
+        "id": 4, 
+        "image": "./images/kiss.jpg",
+        "clicked": false
+    }, 
+    {
+        "id": 5, 
+        "image": "./images/little-bob.png",
+        "clicked": false
+    }, 
+    {
+        "id": 6, 
+        "image": "./images/louise.png",
+        "clicked": false
+    }, 
+    {
+        "id": 7, 
+        "image": "./images/makeup-tina.jpg", 
+        "clicked": false
+    }, 
+    {
+        "id": 8, 
+        "image": "./images/mom.jpg",
+        "clicked": false
+    }, 
+    {
+        "id": 9, 
+        "image": "./images/phone.jpg",
+        "clicked": false
+    }, 
+    {
+        "id": 10, 
+        "image": "./images/tina.jpg",
+        "clicked": false
+    }, 
+    {
+        "id": 11, 
+        "image": "./images/turkey.jpg",
+        "clicked": false
+    }, 
+    {
+        "id": 12, 
+        "image": "./images/vest.jpg",
+        "clicked": false
+    },
+    {
+        "id": 13, 
+        "image": "./images/wave.jpg",
+        "clicked": false
+    }, 
+    {
+        "id": 14, 
+        "image": "./images/bed.png",
+        "clicked": false
+    }
+]
