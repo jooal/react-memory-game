@@ -23,25 +23,20 @@ class Game extends Component {
         displayPictures[i].clicked = false;
       });
       return this.setState({
-        pictures: pictures.sort(() => Math.random() - 0.5),
+        pictures: displayPictures.sort(() => Math.random() - 0.5),
+        currentScore: 0
       })
     }
     else {
       displayPictures.forEach((pictures, i)=> {
         if (id === pictures.id) {
           displayPictures[i].clicked = true;
-          return this.setState({
-            pictures: pictures.sort(() => Math.random() - 0.5),
-            currentScore: 0
-          })
-    
-        }
-      });
+          }
+        });
 
       const {highscore, currentScore} = this.state;
       const newScore = currentScore +1;
       const newHighScore = newScore > highscore ? newScore : highscore;
-
 
       return this.setState({
         pictures: pictures.sort(()=> Math.random() - 0.5),

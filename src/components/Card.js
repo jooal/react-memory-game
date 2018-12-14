@@ -5,7 +5,11 @@ import "../styles/Card.css";
 const Card = props => (
   <div className="card">
     <div className="img-container">
-      <img alt={props.name} src={props.image}/>
+      <img 
+      alt={props.name} 
+      src={props.image} 
+      key={props.id} 
+      onClick={() => props.handleCardClicked(props.id, props.clicked)}/>
 
     </div>
   </div>
@@ -13,3 +17,4 @@ const Card = props => (
 
 export default Card;
 // export { default } from "./Card";
+
