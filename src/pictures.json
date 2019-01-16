@@ -48,25 +48,5 @@
         "id": 10, 
         "image": "./images/tina.jpg",
         "clicked": false
-    }, 
-    {
-        "id": 11, 
-        "image": "./images/turkey.jpg",
-        "clicked": false
-    }, 
-    {
-        "id": 12, 
-        "image": "./images/vest.jpg",
-        "clicked": false
-    },
-    {
-        "id": 13, 
-        "image": "./images/wave.jpg",
-        "clicked": false
-    }, 
-    {
-        "id": 14, 
-        "image": "./images/bed.png",
-        "clicked": false
     }
 ]
